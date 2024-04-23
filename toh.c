@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// C recursive function to solve tower of hanoi puzzle
 void towerOfHanoi(int n, char from_rod, char to_rod, char aux_rod)
 {
 	if (n == 1)
